@@ -19,6 +19,6 @@ int pow(int number, int power) {
     return result;
 }
 
-int[] inputValues = numbersGet();
-int answer = pow(number: inputValues[0], power: inputValues[1]);
+int[] input_values = numbersGet();
+int answer = pow(number: input_values[0], power: input_values[1]);
 Console.WriteLine($"Answer is {answer}");
