@@ -59,6 +59,6 @@ array2dPrint(array2d);
 
 double[] average_values = calculateAverageInColumnsOfArray2d(array2d);
 
-Console.Write("The average values of each columns is:");
+Console.Write("The average values of each column is:");
 for (int i = 0; i < average_values.Length; i++) Console.Write($"  {Math.Round(average_values[i], 2)}");
 Console.WriteLine();
